@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/pizzaTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Corn Cheese"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="#FF0000"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:padding="10dp" />
+
+    <ImageView
+        android:id="@+id/pizzaImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/pizzaTitle"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/im1" />
+
+    <TextView
+        android:id="@+id/pizzaDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delicious corn cheese pizza with a creamy base."
+        android:textSize="16sp"
+        android:layout_below="@id/pizzaImage"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tempDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prepared fresh and ready to serve."
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:layout_below="@id/pizzaDetails"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
