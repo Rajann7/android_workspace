@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome To Pizza Hub"
+            android:textStyle="bold"
+            android:background="#0023FF"
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp" />
+
+        <ImageView
+            android:id="@+id/img01"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/im1"
+            android:layout_marginTop="170dp" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img01"
+            android:layout_marginTop="40dp"
+            android:text="Corn Cheese"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="#F44336"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:padding="10dp" />
+
+
+        <!-- -->
+
+        <ImageView
+            android:id="@+id/img02"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/im2"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/txt1"/>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img02"
+            android:layout_marginTop="40dp"
+            android:text="Paneer Makhni"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="#F44336"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:padding="10dp" />
+
+        <!-- -->
+
+        <ImageView
+            android:id="@+id/img03"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/im3"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/txt2"/>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img03"
+            android:layout_marginTop="40dp"
+            android:text="Digital Veggie"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="#F44336"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:padding="10dp" />
+
+        <!-- -->
+
+        <ImageView
+            android:id="@+id/img04"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/im4"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/txt3"/>
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img04"
+            android:layout_marginTop="40dp"
+            android:text="Double Cheese Margherita"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="#F44336"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:padding="10dp" />
+
+        <!-- -->
+        <ImageView
+            android:id="@+id/img05"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/im5"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/txt4"/>
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img05"
+            android:layout_marginTop="40dp"
+            android:text="Farm house"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="#F44336"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:padding="10dp" />
+
+        <!-- -->
+        <ImageView
+            android:id="@+id/img06"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/im6"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/txt5"/>
+
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img06"
+            android:layout_marginTop="40dp"
+            android:text="FreshVeggie"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="#F44336"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:padding="10dp" />
+
+        <!-- -->
+        <ImageView
+            android:id="@+id/img07"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/im6"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/txt6"/>
+
+        <TextView
+            android:id="@+id/txt7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img07"
+            android:layout_marginTop="40dp"
+            android:text="Margherit"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="#F44336"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:padding="10dp" />
+
+        <!-- -->
+        <ImageView
+            android:id="@+id/img08"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/im7"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/txt7"/>
+
+        <TextView
+            android:id="@+id/txt8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img08"
+            android:layout_marginTop="40dp"
+            android:text="Mexican Green Wave"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="#F44336"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:padding="10dp" />
+
+        <!-- -->
+        <ImageView
+            android:id="@+id/img09"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/im8"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/txt8"/>
+
+        <TextView
+            android:id="@+id/txt9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img09"
+            android:layout_marginTop="40dp"
+            android:text="Paneer Makhni"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="#F44336"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:padding="10dp" />
+
+        <!-- -->
+        <ImageView
+            android:id="@+id/img10"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/im9"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/txt9"/>
+
+        <TextView
+            android:id="@+id/txt10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img10"
+            android:layout_marginTop="40dp"
+            android:text="Paneer Makhni"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="#F44336"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:padding="10dp" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
